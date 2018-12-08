@@ -1,5 +1,8 @@
 require "dry-validation"
-require "dry/validation/schema/form"
+# require "dry/validation/schema/form"
+# TO-DO: Review this in the feature was needed because changes
+# in the dry-validation gem that break some functionality
+require "dry/validation/compat/form"
 require "reform/validation"
 
 module Reform::Form::Dry
